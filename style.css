@@ -62,13 +62,13 @@ header.shadow #search-icon{
 }
 
 .main-content .main-slider {
-    width: 100%;
-    height: 421px;
+    width: 1500px;
+    height: 650px;
     position: relative;
 }
 .main-slider > img {
-    width: 100%;
-    height: 421px;
+    width: 1500px;
+    height: 650px;
     position: absolute;
     top: 0;
     left: 0;
@@ -86,7 +86,6 @@ header.shadow #search-icon{
     display: inline-block;
     background-color: #bbb;
 }
-.active,
 .dot:hover {
     background-color: #717171;
 }
@@ -139,7 +138,7 @@ header.shadow #search-icon{
     border-radius: 0.5rem;
     clip-path: circle(0% at 100% 0%);
 }
-.search-box.active{
+.search-box .active{
     clip-path: circle(144% at 100% 0%);
     transition: 0.2s;
 }
@@ -160,8 +159,7 @@ header.shadow #search-icon{
     align-items: center;
     background: url(img/Background-home.png);
     background-repeat: no-repeat;
-    background size: cover;
-    background-position: center left;
+    background-position :center;
 
 }
 .home-text{
@@ -488,7 +486,7 @@ header.shadow #search-icon{
         font-size: 1.4rem;
     }
 }
-@media(max-width:607 px){
+@media(max-width: 607px){
     .footer-container{
         display: grid;
         grid-template-columns: 1fr 1fr;
