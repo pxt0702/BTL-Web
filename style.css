@@ -157,7 +157,7 @@ header.shadow #search-icon{
     min-height: 1000x;
     display: flex;
     align-items: center;
-    background: url(img/Background-home.png);
+    background: url();
     background-repeat: no-repeat;
     background-position :center;
 
@@ -507,6 +507,45 @@ header.shadow #search-icon{
         
     }
 }
+.section-title {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 2em;
+    color: #333;
+}
+
+.cars-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.car-box {
+    flex: 1 1 calc(40% - 20px);
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.car-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.car-title {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.car-description {
+    font-size: 1em;
+    color: #666;
+}
+
     
 
 

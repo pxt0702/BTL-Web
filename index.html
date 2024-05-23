@@ -4,22 +4,21 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>
-           Trang Web bán ô tô
-        </title>
+        <title>Trang Web bán ô tô</title>
         <link rel="stylesheet" href="style.css">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
         <script src="https://cdn.jsdelivr.net/npm/swiper@latest/swiper.min.js"></script>
     </head>
 <body>
+       
     <header style="background-color:antiquewhite">
         <div class="nav container">
             <i class='bx bx-menu' id="menu-icon"></i>
-            <a href="" class="logo">Car<span>Point</span></a>
+            <a href="" class="logo">Car<span>Vinfast</span></a>
             <ul class="navbar">
-                <li><a href="#home" class="active">Trang chủ</a></li>
-                <li><a href="#car">Sản Phẩm</a></li>
+                <li><a href="#home"class="active">Trang chủ</a></li>
+                <li><a href="#car" >Sản Phẩm</a></li>
                 <li><a href="#about">Dịch Vụ</a></li>
                 <li><a href="#parts">Thiết Bị</a></li>
                 <li><a href="#blog">Hỗ Trợ</a></li>
@@ -31,215 +30,183 @@
             </div>
         </div>
     </header>
-
     <section class="home" id="home">
-    <div class="home-text">
-        <h1>Chúng tôi có tất cả<br> xe <span>Ô Tô</span> bạn cần</h1>
-        <p>Sản phẩm chất lượng tinh tế và đáp ứng mọi nhu cầu</p>
-        <a href="#" class="btn">Khám Phá Ngay</a>
-    </div>
-    </section>
-
-    <section class="main-content swiper mySwiper">
-        <div class="main-slider swiper-wrapper">
-            <img class="swiper-slide" src="./img/1.jpg" alt="">
-            <img class="swiper-slide" src="./img/2.jpg" alt="">
-            <img class="swiper-slide" src="./img/3.jpg" alt="">
-            <img class="swiper-slide" src="./img/4.jpg" alt="">
-            <img class="swiper-slide" src="./img/5.jpg" alt="">
-            <img class="swiper-slide" src="./img/6.jpg" alt="">
-            <img class="swiper-slide" src="./img/7.jpg" alt="">
+        <div class="home-text">
+            <h1 >Chúng tôi có tất cả các dòng xe <br>ô tô  <span>Vinfast </span>đang mở bán tại Việt Nam</h1>
         </div>
+        </section>
     
-        <div class="navigation-button">
-            <span class="dot" onclick="changeSlide(0)"></span>
-            <span class="dot" onclick="changeSlide(1)"></span>
-            <span class="dot" onclick="changeSlide(2)"></span>
-            <span class="dot" onclick="changeSlide(3)"></span>
-            <span class="dot" onclick="changeSlide(4)"></span>
-            <span class="dot" onclick="changeSlide(5)"></span>
-            <span class="dot" onclick="changeSlide(6)"></span>
-        </div>
-    </section>
-
-    <section class="car" id="cars">
-    <div class="heading">
-        <span>
-            Mẫu Xe
-        </span>
-        <h2>Chúng tôi có các mẫu xe </h2>
-        <p>Xe của một người là phong cảnh của người khác</p>
-
-    </div>
-    <div class="car-container container">
-       
-        <div class="box">
-            <img src="img/car1.jpg" alt="">
-            <h2>Porche Car</h2>
-        </div>
-        <div class="box">
-            <img src="img/car2.jpg" alt="">
-            <h2>Audi Car</h2>
-        </div>
-        <div class="box">
-            <img src="img/car3.jpg" alt="">
-            <h2>Audi Car</h2>
-        </div>
-        <div class="box">
-            <img src="img/car4.jpg" alt="">
-            <h2>Audi Car</h2>
-        </div>
-        <div class="box">
-            <img src="img/car5.jpg" alt="">
-            <h2>Audi Car</h2>
-        </div>
-        <div class="box">
-            <img src="img/car6.jpg" alt="">
-            <h2>Porche Car</h2>
-        </div>  
-    </div>
-
-
-   </section>
-   <section class="about container" id="about">
-    <div class="about-img">
-        <img src="img/about.png" alt="">
-    </div>
-    <div class="about-text">
-        <span>Sản phẩm</span>
-        <h2>Xe giá rẻ với<br>Chất lượng</h2>
-        <p>Chiếc xe đã trở thành chiếc áo khoác, lớp vỏ bảo vệ và hung hãn, của người thành thị và ngoại ô</p>
-    <a href="#" class="btn" >Tìm hiểu thêm</a>
-    </div>
-
-   </section>
-   <section class="parts" id="parts">
-    <div class="heading">
-        <span>What We Offer</span>
-        <h2>Our Car Is ALways Execellent</h2>
-        <p></p>
-    </div>
-    <div class="parts-container container">
-
-        <div class="box">
-            <img src="img/part1.png" alt="">
-            <h3>Auto Spare Parts</h3>
-            <span>$120.99</span>
-            <i class='bx bxs-star'>(2405 Reviews)</i>
-            <a href="#" class="btn">Buy Now</a>
-            <a href="#" class="details">Views Details</a>
-        </div>
-        <div class="box">
-            <img src="img/part2.png " alt="">
-            <h3>Auto Spare Parts</h3>
-            <span>$120.99</span>
-            <i class='bx bxs-star'>(2405 Reviews)</i>
-            <a href="#" class="btn">Buy Now</a>
-            <a href="#" class="details">Views Details</a>
-        </div>
-        <div class="box">
-            <img src="img/part3.png" alt="">
-            <h3>Auto Spare Parts</h3>
-            <span>$120.99</span>
-            <i class='bx bxs-star'>(2405 Reviews)</i>
-            <a href="#" class="btn">Buy Now</a>
-            <a href="#" class="details">Views Details</a>
-        </div>
-        <div class="box">
-            <img src="img/part4.png" alt="">
-            <h3>Auto Spare Parts</h3>
-            <span>$120.99</span>
-            <i class='bx bxs-star'>(2405 Reviews)</i>
-            <a href="#" class="btn">Buy Now</a>
-            <a href="#" class="details">Views Details</a>
-        </div>
-        <div class="box">
-            <img src="img/part5.png" alt="">
-            <h3>Auto Spare Parts</h3>
-            <span>$120.99</span>
-            <i class='bx bxs-star'>(2405 Reviews)</i>
-            <a href="#" class="btn">Buy Now</a>
-            <a href="#" class="details">Views Details</a>
-        </div>
-        <div class="box">
-            <img src="img/part6.png" alt="">
-            <h3>Auto Spare Parts</h3>
-            <span>$120.99</span>
-            <i class='bx bxs-star'>(2405 Reviews)</i>
-            <a href="#" class="btn">Buy Now</a>
-            <a href="#" class="details">Views Details</a>
-        </div>
-    </div>
-   </section>
-   <section class="blog" id="blog">
-    <div class="heading">
-        <span>Blog & New</span>
-        <h2>Our Blog Content</h2>
-        <p></p>
-    </div>
-    <div class="blog-container container">
-        <div class="box">
-            <img src="img/car1.jpg"alt="">
-            <span>May 10 2024</span>
-            <h3>How To Get Perfect Car At Low Price</h3>
-            <p></p>
-            <a href="#" class="blog-btn">Read More<i class='bx bx-right-arrow-alt' ></i></a>
-        </div>
-        <div class="box">
-            <img src="img/car2.jpg"alt="">
-            <span>May 10 2024</span>
-            <h3>How To Get Perfect Car At Low Price</h3>
-            <p></p>
-            <a href="#" class="blog-btn">Read More<i class='bx bx-right-arrow-alt' ></i></a>
-        </div>
-        <div class="box">
-            <img src="img/car3.jpg"alt="">
-            <span>May 10 2024</span>
-            <h3>How To Get Perfect Car At Low Price</h3>
-            <p></p>
-            <a href="#" class="blog-btn">Read More<i class='bx bx-right-arrow-alt' ></i></a>
-        </div>
-    </div>
-   </section>
-   <section class="footer">
-    <div class="footer-container container">
-        <div class="footer-box">
-            <a href="#" class="logo">Car<span>Point</span></a>
-            <div class="social">
-                <a href="#"><i class='bx bxl-facebook' ></i></a>
-                <a href="#"><i class='bx bxl-twitter' ></i></a>
-                <a href="#"><i class='bx bxl-instagram' ></i></a>
-                <a href="#"><i class='bx bxl-youtube' ></i></a>
-
+        <section class="main-content swiper mySwiper">
+            <div class="main-slider swiper-wrapper">
+                <img class="swiper-slide" src="./img/vf3.png" alt="">
+                <img class="swiper-slide" src="./img/vf5.png" alt="">
+                <img class="swiper-slide" src="./img/vf6.png" alt="">
+                <img class="swiper-slide" src="./img/vf7.png" alt="">
+                <img class="swiper-slide" src="./img/vf8.png" alt="">
+                <img class="swiper-slide" src="./img/vf9.png" alt="">
+                <img class="swiper-slide" src="./img/vfe34.png" alt="">
+                <img class="swiper-slide" src="./img/vffadil.png" alt="">
+                <img class="swiper-slide" src="./img/vfpresident.png" alt="">
+                <img class="swiper-slide" src="./img/luxa20.png" alt="">
+                <img class="swiper-slide" src="./img/luxsa20.png" alt="">
+                
+            </div>
+        
+            <div class="navigation-button">
+                <span class="dot" onclick="changeSlide(0)"></span>
+                <span class="dot" onclick="changeSlide(1)"></span>
+                <span class="dot" onclick="changeSlide(2)"></span>
+                <span class="dot" onclick="changeSlide(3)"></span>
+                <span class="dot" onclick="changeSlide(4)"></span>
+                <span class="dot" onclick="changeSlide(5)"></span>
+                <span class="dot" onclick="changeSlide(6)"></span>
+                <span class="dot" onclick="changeSlide(7)"></span>
+                <span class="dot" onclick="changeSlide(8)"></span>
+                <span class="dot" onclick="changeSlide(9)"></span>
+                <span class="dot" onclick="changeSlide(10)"></span>
+            </div>
+        </section>
+    
+    <section class="cars-section container">
+        <h2 class="section-title">Dòng xe Vinfast chạy bằng động cơ điện</h2>
+        <div class="cars-container">
+            <div class="car-box">
+                <img src="img/vf7.png" alt="vf7" class="car-image">
+                <h3 class="car-title">Xe VF 7</h3>
+                <a href="#" class="btn" >Xem chi tiết</a>
+            </div>
+            <div class="car-box">
+                <img src="img/vf5.png" alt="VF5 Plus" class="car-image">
+                <h3 class="car-title">Xe VF5 Plus</h3>
+                <a href="#" class="btn" >Xem chi tiết</a>
+            </div>
+            <div class="car-box">
+                <img src="img/vf6.png" alt="VF 6" class="car-image">
+                <h3 class="car-title">Xe VF 6</h3>
+                <a href="#" class="btn" >Xem chi tiết</a>
+            </div>
+            <div class="car-box">
+                <img src="img/vfe34.png" alt="VF e34" class="car-image">
+                <h3 class="car-title">Xe VF e34</h3>
+                <a href="#" class="btn" >Xem chi tiết</a>
+            </div>
+            <div class="car-box">
+                <img src="img/vf8.png" alt="VF 8" class="car-image">
+                <h3 class="car-title">Xe VF 8</h3>
+                <a href="#" class="btn" >Xem chi tiết</a>
+            </div>
+            <div class="car-box">
+                <img src="img/vf9.png" alt="VF 9" class="car-image">
+                <h3 class="car-title">Xe VF9</h3>
+                <a href="#" class="btn" >Xem chi tiết</a>
+            </div>
+            <div class="car-box">
+                <img src="img/vf3.png" alt="VF 3" class="car-image">
+                <h3 class="car-title">Xe VF 3</h3>
+                <a href="#" class="btn" >Xem chi tiết</a>
+            
             </div>
         </div>
-        <div class="footer-box">
-                 <h3>Page</h3>
-                <a href="#" >Home</a>
-                <a href="#" >Cars</a>
-                <a href="#" >Parts</a>
-                <a href="#" >Sales</a>
+    </section>
+    <section class="cars-section container">
+        <h2 class="section-title">Dòng xe Vinfast chạy bằng động cơ xăng</h2>
+        <div class="cars-container">
+            <div class="car-box">
+                <img src="img/vffadil.png" alt="Fadil" class="car-image">
+                <h3 class="car-title">Xe Fadil</h3>
+                <a href="#" class="btn" >Xem chi tiết</a>
+            </div>
+            <div class="car-box">
+                <img src="img/luxsa20.png" alt="LUX SA2.0" class="car-image">
+                <h3 class="car-title">Xe LUX SA2.0</h3>
+                <a href="#" class="btn" >Xem chi tiết</a>
+            </div>
+            <div class="car-box">
+                <img src="img/luxa20.png" alt="LUX A2.0" class="car-image">
+                <h3 class="car-title">Xe LUX A2.0</h3>
+                <a href="#" class="btn" >Xem chi tiết</a>
+            </div>
+           
+            <div class="car-box">
+                <img src="img/vfpresident.png" alt="President" class="car-image">
+                <h3 class="car-title">Xe President</h3>
+                <a href="#" class="btn" >Xem chi tiết</a>
+            </div>
         </div>
-        <div class="footer-box">
-            <h3>Legal</h3>
-            <a href="#" >Privacy</a>
-            <a href="#" >Refund Policy</a>
-            <a href="#" >Cookie Policy</a>
-        
+    </section>
+
+    <section class="blog" id="blog">
+        <div class="heading">
+            <h2>Tin tức</h2>
+            <p></p>
         </div>
-        <div class="footer-box">
-            <h3>Contact</h3>
-            <p>United States<p>
-            <p>Japan</p>
-            <p>Germany</p>
-           </div>
+
+
+
+    <div class="blog-container container">
+        <div class="box">
+            <img src="img/vf3.png"alt="">
+            <span>Tháng 5 năm 2024</span>
+            <h3>Sán phẩm mới sản xuất</h3>
+            <p></p>
+            <a href="#" class="blog-btn">Đọc thêm<i class='bx bx-right-arrow-alt' ></i></a>
+        </div>
+        <div class="box">
+            <img src="img/vf3.png"alt="">
+            <span>Tháng 5 năm 2024</span>
+            <h3>Thông tin về nhà máy sản xuất </h3>
+            <p></p>
+            <a href="#" class="blog-btn">Đọc thêm<i class='bx bx-right-arrow-alt' ></i></a>
+        </div>
+        <div class="box">
+            <img src="img/vf3.png"alt="">
+            <span>thánh 5 năm 2024</span>
+            <h3>Bảng giả mới nhất về các loại xe</h3>
+            <p></p>
+            <a href="#" class="blog-btn">Đọc thêm<i class='bx bx-right-arrow-alt' ></i></a>
+        </div>
     </div>
    </section>
-   <div class="copyright">
-    <p>&#169  CarpoolVenom All Right Reserved</p>
-   </div>
-
-   <script src="main.js"></script>
-</body>
-</html>
-
+    <section class="footer">
+        <div class="footer-container container">
+            <div class="footer-box">
+                <a href="#" class="logo">Car<span>Point</span></a>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#"><i class='bx bxl-youtube' ></i></a>
+    
+                </div>
+            </div>
+            <div class="footer-box">
+                     <h3>Page</h3>
+                    <a href="#" >Home</a>
+                    <a href="#" >Cars</a>
+                    <a href="#" >Parts</a>
+                    <a href="#" >Sales</a>
+            </div>
+            <div class="footer-box">
+                <h3>Legal</h3>
+                <a href="#" >Privacy</a>
+                <a href="#" >Refund Policy</a>
+                <a href="#" >Cookie Policy</a>
+            
+            </div>
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <p>United States<p>
+                <p>Japan</p>
+                <p>Germany</p>
+               </div>
+        </div>
+    </section>
+       <div class="copyright">
+        <p>&#169  CarpoolVenom All Right Reserved</p>
+       </div>
+    
+       <script src="main.js"></script>
+    </body>
+    </html>
+    
+    
