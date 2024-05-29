@@ -72,10 +72,12 @@ header.shadow #search-icon{
     position: absolute;
     top: 0;
     left: 0;
+ 
 }
 .navigation-button{
     text-align: center;
     position: relative;
+    background-size: 100%;
 }
 .dot {
     margin-right: 10px;
