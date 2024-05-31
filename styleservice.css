@@ -1,0 +1,30 @@
+.content-wrapper {
+    display: flex;
+    flex-direction: column; /* Sắp xếp các phần tử theo cột */
+    justify-content: center; /* Căn giữa theo chiều dọc */
+    align-items: center;    /* Căn giữa theo chiều ngang */
+    height: 100vh;          /* Chiều cao của container bằng chiều cao của viewport */
+    background-color: #f5f5f5; /* Màu nền cho dễ nhìn */
+  }
+  .service1 p {
+    font-size: 36px;
+    margin: 20px 0;
+
+  }
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: floralwhite;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu mượt mà */
+  }
+  .button:hover {
+    background-color:rgb(250, 235, 215) ; /* Màu nền khi hover */
+  }
+  img{
+    padding: 20 20 20 20;
+  }
+  
