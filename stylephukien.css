@@ -60,3 +60,16 @@ h5 {
     background-color:bisque; 
 }
 
+.dathang {
+    color: #fff;
+    background-color: #28a745;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    opacity: 0;
+}
+
+.pkvf :hover  .dathang{
+    opacity: 1; 
+}
