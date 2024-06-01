@@ -194,13 +194,26 @@ header.shadow #search-icon{
     overflow: hidden;
 
 }
-.car-container .box img:hover{
-    transform: scale(1,1);
-    transition: 0.5s;
-}
-.car-container .box h2{
+.car-container .box .details{
+    display: flex;
+    background-color:#c1d6df ;
+    padding: 8px;
+    border-radius: 5px;
+    align-items: center;
     position: absolute;
     bottom: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+.car-container .box .details:hover{
+    color:rgb(249, 249, 249);
+    text-decoration: underline;
+}
+
+.car-container .box h2{
+    position: absolute;
+    top: 0.5rem;
     left: 1rem;
     font-weight: 400;
     font-size: 1rem;
