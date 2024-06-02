@@ -61,7 +61,7 @@
     transition: color 0.3s ease, transform 0.3s ease;
     
   }
-  
+
   .step-icon:hover {
     color: #0056b3;
     transform: scale(1.2);
@@ -79,7 +79,7 @@
     height: 50vh;
     background-color: white;
     margin: -150px;
-    padding: 100px;
+    padding: 50px;
   }
   
   .service2 h1 {
