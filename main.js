@@ -31,3 +31,9 @@ function changeSlide() {
   imgs[currentImg].style.opacity = 1;
   dots[currentImg].className += ' active';
 }
+function changeImage(element, imagePath) {
+  document.getElementById('mainImage').src = imagePath;
+  let thumbnails = document.querySelectorAll('.thumbnail');
+  thumbnails.forEach(thumbnail => thumbnail.classList.remove('active'));
+  element.classList.add('active');
+}
