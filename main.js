@@ -33,7 +33,7 @@ function changeSlide() {
 }
 function changeImage(element, imagePath) {
   document.getElementById('mainImage').src = imagePath;
-  let thumbnails = document.querySelectorAll('.thumbnail');
+  let thumbnails = document.querySelectorAll('.partt');
   thumbnails.forEach(thumbnail => thumbnail.classList.remove('active'));
   element.classList.add('active');
 }
