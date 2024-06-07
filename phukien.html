@@ -12,8 +12,39 @@
         <script src="https://cdn.jsdelivr.net/npm/swiper@latest/swiper.min.js"></script>
         <script src="phukien.js"></script>
     </head>
-<body>
-       
+<body> 
+    <div id="orderNotification" class="order-notification">
+        <button class="close-btn" onclick="closeNotification()">Close</button>
+        <h2>Thông tin đặt hàng</h2>
+        <form>
+            <div class="form-group">
+                <label for="product">Chọn sản phẩm:</label>
+                <select id="product" name="product">
+                    <option value="product1">Sản phẩm 1</option>
+                    <option value="product2">Sản phẩm 2</option>
+                    <option value="product3">Sản phẩm 3</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="quantity">Số lượng:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="100">
+            </div>
+            
+            <div class="form-group">
+                <label for="name">Tên của bạn:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            
+            <div class="form-group">
+                <label for="address">Địa chỉ giao hàng:</label>
+                <input type="text" id="address" name="address">
+            </div>
+            
+            <input type="submit" value="Gửi đơn hàng">
+        </form>
+    </div>
+
     <header style="background-color:antiquewhite">
         <div class="nav container">
             <i class='bx bx-menu' id="menu-icon"></i>
@@ -31,7 +62,7 @@
         </div>
     </header>
 
-    <div class ="cot">
+<div class ="cot">
         <div class="cot1">
             <h2>Danh mục</h2>
                 <ul>
@@ -45,7 +76,7 @@
                     <li><b><a href="#pkxexang">Phụ kiện xe xăng</a></b></li>
                 </ul>
         </div> 
-        <div class="cot2" >
+    <div class="cot2" >
             <h4 id="pkvf9">Phụ kiện xe VF9</h4>
                 <div class="pkvf">
                     <div class=" pk-vf">
@@ -59,7 +90,7 @@
                         <h5>Gói Film cách nhiệt dán trần Vinfast VF9 </h5>
                         <p style="color:red"><b>6.000.000 VNĐ</b></p>
                         <button class="dathang">Đặt hàng</button>                                    
-                                            </div>
+                    </div>
                     <div class=" pk-vf">
                         <img src="img/goidanfilmcachnhietvf9.png" alt="Gói Dán Film cách nhiệt Vinfast VF9">
                         <h5>Gói Dán Film cách nhiệt Vinfast VF9 </h5>
@@ -79,7 +110,7 @@
                         <button class="dathang">Đặt hàng</button>                   
                     </div>
                 </div>  
-<div class="dongke" id="pkvf8"></div>
+    <div class="dongke" id="pkvf8"></div>
         <h4>Phụ kiện xe VF8</h4>
                 <div class="pkvf">
                     <div class=" pk-vf">
@@ -93,7 +124,7 @@
                         <h5>Gói Film cách nhiệt Vinfast VF8 </h5>
                         <p style="color:red"><b>7.000.000 VNĐ</b></p>
                         <button class="dathang">Đặt hàng</button>                   
-                                            </div>
+                    </div>
                     <div class=" pk-vf">
                         <img src="img/thamsannhua2dvf8.png" alt="Thảm sàn nhựa 2D VF 8">
                         <h5>Thảm sàn nhựa 2D VF 8</h5>
@@ -119,7 +150,7 @@
                         <button class="dathang">Đặt hàng</button>                   
                     </div>
                 </div> 
-<div class="dongke" id="pkvf7"></div>          
+    <div class="dongke" id="pkvf7"></div>          
         <h4>Phụ kiện xe VF7</h4>
             <div class="pkvf">
                 <div class=" pk-vf">
@@ -147,7 +178,7 @@
                     <button class="dathang">Đặt hàng</button>                   
                 </div>
             </div>
-<div class="dongke" id="pkvf6"></div>
+    <div class="dongke" id="pkvf6"></div>
         <h4>Phụ kiện xe VF6</h4>
             <div class="pkvf">
                 <div class=" pk-vf">
@@ -175,7 +206,7 @@
                     <button class="dathang">Đặt hàng</button>                   
                 </div>
             </div>
-<div class="dongke" id="pkvfe34"></div>
+    <div class="dongke" id="pkvfe34"></div>
         <h4>Phụ kiện xe VF e34</h4>
         <div class="pkvf">
             <div class=" pk-vf">
@@ -209,7 +240,7 @@
                 <button class="dathang">Đặt hàng</button>                   
             </div>
         </div>
-<div class="dongke" id="pkvf5plus"></div>
+    <div class="dongke" id="pkvf5plus"></div>
         <h4>Phụ kiện xe VF 5 Plus</h4>
         <div class="pkvf">
             <div class=" pk-vf">
@@ -237,7 +268,7 @@
                 <button class="dathang">Đặt hàng</button>                   
             </div>
         </div>
-<div class="dongke" id="sacoto"></div>
+    <div class="dongke" id="sacoto"></div>
         <h4>Sạc ô tô điện</h4>
         <div class="pkvf">
             <div class=" pk-vf">
@@ -253,7 +284,7 @@
                 <button class="dathang">Đặt hàng</button>                   
             </div>
         </div>
-<div class="dongke" id="pkxexang"></div>
+    <div class="dongke" id="pkxexang"></div>
         <h4>Phụ kiện xe xăng</h4>  
         <div class="pkvf">
             <div class=" pk-vf">
@@ -276,14 +307,7 @@
             </div>  
         </div>                              
     </div>                 
-    </div>
+</div>
 
-
-    
-    
-    
-
-    
-   
     </body>
     </html>
