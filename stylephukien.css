@@ -3,34 +3,39 @@
     display: flex;
     height: 100%;
 }
-.cot1{
+
+.cot1 {
     position: fixed;
-    width:15%;
+    width: 15%; 
     padding: 70px 20px 30px 20px;
     background-color: rgb(250, 235, 210);
-    radius: 5px;
+    border-radius: 5px; 
     line-height: 4;
     height: 100%;
-
+    box-sizing: border-box; 
+    overflow-y: auto;
 }
 .cot2{
-    width:100%;
+    margin-left: 15%;
+    width:85%;
     padding:70px 10px 30px 150px;
     
 }
 .pkvf {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
     gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 20px;
 }
 .pk-vf {
     border: 1px solid #ccc;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
 }
 .pk-vf img {
     max-width: 100%;
@@ -45,16 +50,9 @@
 .pkvf :hover {
     transform: scale(1.1); 
 }
-h4 {
-    margin: 50px 0 50px 10%;
-    font-size: 20px;
-}
-h5 {
-    margin: 20px;
 
-}
 .dongke{
-    margin: 30px 0 30px 0;;
+    margin: 30px 0;
     width:100%;
     height:10px;
     background-color:bisque; 
@@ -73,43 +71,90 @@ h5 {
 .pkvf :hover  .dathang{
     opacity: 1; 
 }
+.h4{
+    padding: 30px;
+    margin 50px;
+}
 
 
 
 
 .order-notification {
-    border: 4px solid;
+    border: 4px solid #f5c6cb;
     display: none;
     position: fixed;
-    height:50%;
-    left: 20%;
-    top: 20%;
+    height: auto;
+    max-height: 80%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     width: 60%;
     background-color: #f8d7da;
     color: #721c24;
-    padding: 10px 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 1000;
+    overflow-y: auto;
+    border-radius: 10px; 
 }
+
 .order-notification h2 {
     margin: 0;
-    font-size: 18px;
+    font-size: 2em;
+    text-align: center; 
 }
+
 .order-notification .form-group {
-    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0; 
 }
+
+.order-notification label {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.order-notification input[type="number"], .order-notification input[type="text"], .order-notification textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.order-notification .button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 .order-notification input[type="submit"] {
     background-color: #007bff;
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+    border-radius: 5px; 
+    transition: background-color 0.3s;
 }
+
+.order-notification input[type="submit"]:hover {
+    background-color: #0056b3; 
+}
+
 .order-notification .close-btn {
-    background-color: red;
+    background-color: #dc3545;
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    float: right;
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+.order-notification .close-btn:hover {
+    background-color: #c82333; 
 }

@@ -16,16 +16,7 @@
     <div id="orderNotification" class="order-notification">
         <button class="close-btn" onclick="closeNotification()">Close</button>
         <h2>Thông tin đặt hàng</h2>
-        <form>
-            <div class="form-group">
-                <label for="product">Chọn sản phẩm:</label>
-                <select id="product" name="product">
-                    <option value="product1">Sản phẩm 1</option>
-                    <option value="product2">Sản phẩm 2</option>
-                    <option value="product3">Sản phẩm 3</option>
-                </select>
-            </div>
-            
+        <form>            
             <div class="form-group">
                 <label for="quantity">Số lượng:</label>
                 <input type="number" id="quantity" name="quantity" min="1" max="100">
@@ -40,7 +31,6 @@
                 <label for="address">Địa chỉ giao hàng:</label>
                 <input type="text" id="address" name="address">
             </div>
-            
             <input type="submit" value="Gửi đơn hàng">
         </form>
     </div>
