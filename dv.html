@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ và Hỗ trợ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylehotro.css">
+</head>
+<body>
+
+    <header style="background-color:antiquewhite">
+        <div class="nav container">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <a href="" class="logo">Car<span>Vinfast</span></a>
+            <ul class="navbar">
+                <li><a href="index.html" >Trang chủ</a></li>
+                <li><a href="spham.html" >Sản Phẩm</a></li>
+                <li><a href="phukien.html">Thiết Bị</a></li>
+                <li><a href="service.html" class="active" >Dịch Vụ</a></li>               
+            </ul>
+            <i class='bx bx-search' id="search-icon"></i>
+            <div class="search-box container">
+                <input type="search" name="" id="" placeholder="Search here...">
+            </div>
+        </div>
+    </header>
+    <div class="main-container">
+        <main class="size">
+            <h1>ĐẶT LỊCH DỊCH VỤ</h1>
+            <form action="/submit_booking" method="post">
+                <h2>1. Thông tin khách hàng</h2>
+                <label for="full_name">Họ tên *</label><br>
+                <input type="text" id="full_name" name="full_name" required maxlength="80"><br>
+                <label for="phone_number">Số điện thoại *</label><br>
+                <input type="tel" id="phone_number" name="phone_number" pattern="[0-9]{10,}" required><br>
+                <label for="email">Email *</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <h2>2. Thông tin xe</h2>
+                <label for="car_model">Mẫu xe *</label><br>
+                <input type="text" id="car_model" name="car_model" required><br>
+                <label for="car_km">Số Km</label><br>
+                <input type="number" id="car_km" name="car_km"><br>
+                <label for="car_plate">Biển số xe</label><br>
+                <input type="text" id="car_plate" name="car_plate"><br><br>
+
+                <h2>3. Dịch vụ</h2>
+                <label for="service">Dịch vụ *</label><br>
+                <select id="service" name="service" required>
+                    <option value="Bảo dưỡng">Bảo dưỡng</option>
+                    <option value="Sửa chữa chung">Sửa chữa chung</option>
+                    <option value="Đồng sơn">Đồng sơn</option>
+                    <option value="Xưởng dịch vụ">Xưởng dịch vụ</option>
+                    <option value="Dịch vụ sửa chữa lưu động">Dịch vụ sửa chữa lưu động</option>
+                    <option value="Sửa chữa khác">Sửa chữa khác</option>
+                </select><br>
+                <label for="location">Tại *</label><br>
+                <input type="text" id="location" name="location" required><br>
+                <label for="time">Thời gian *</label><br>
+                <input type="datetime-local" id="time" name="time" required><br>
+                <label for="note">Ghi chú</label><br>
+                <textarea id="note" name="note" rows="4" cols="50"></textarea><br><br>
+
+                <h2>4. Tải ảnh lên (tối đa 5 ảnh)</h2>
+                <input type="file" id="image" name="image" accept="image/*" multiple><br><br>
+
+                <input type="submit" value="Gửi yêu cầu">
+            </form>
+        </main>
+    </div>
+    <section class="footer">
+        <div class="footer-container container">
+            <div class="footer-box">
+                <a href="#" class="logo">Car<span>Vinfast</span></a>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#"><i class='bx bxl-youtube' ></i></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Page</h3>
+                <a href="index.html" >Home</a>
+                <a href="#" >Cars</a>
+                <a href="#" >Parts</a>
+                <a href="service.html" >Service</a>
+            </div>
+            <div class="footer-box">
+                <h3>Legal</h3>
+                <a href="#" >Privacy</a>
+                <a href="#" >Refund Policy</a>
+                <a href="#" >Cookie Policy</a>
+            </div>
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <p>United States<p>
+                <p>Japan</p>
+                <p>Germany</p>
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>&#169  CarpoolVenom All Right Reserved</p>
+    </div>
+
+<script src="hotro.js"></script>
+</body>
+</html>
