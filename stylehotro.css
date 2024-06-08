@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Đảm bảo chiếm toàn bộ chiều cao của khung nhìn */
+    min-height: 100vh; 
     padding: 20px;
 }
 
@@ -23,7 +23,7 @@ body {
     background: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    border: 1px solid #ddd; /* Thêm border xung quanh form */
+    border: 1px solid #ddd; 
 }
 
 form {
