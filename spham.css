@@ -124,33 +124,29 @@ header.shadow #search-icon{
     font-size: 1rem;
 }
 .home{
-    max-width: 1500px;
+    max-width: 1600px;
     margin: auto;
     width: 100%;
-    padding: 4rem 0 3rem 0;
+    padding: 6rem 0 3rem 0;
     min-height: 1000x;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-image:url(/img/bg.png);
+    background-image:url(../BTL-Web/img/bg.png);
     background-repeat: no-repeat;
     background-position :center;
     background-clip:padding-box;
 
 }
-.home-text{
-    padding-left: 9rem;
-
-}
 .home-text h1{
     font-size: 2.4rem;
-    padding-top: 10px;
-
+    padding: 30px  0px 0px 250px;
 }
 .home-text span{
     color: var(--main-color);
 }
 .home-text p{
+    padding: 30px  0px 0px 250px;
     font-size: 1.3rem;
     font-weight: 300;
     margin: 0.5rem 0 1.2rem;
@@ -158,6 +154,15 @@ header.shadow #search-icon{
 .home-text a{
     box-shadow: rgb(79, 73, 115) 0px 7px 10px 0px;
     border-radius: 5px;
+    margin: 30px  0px 0px 250px;
+}
+.home-img{
+
+    text-align: center;
+}
+.home-img img{
+    
+    width: 1600px ;
 }
 .btn{
     padding: 10px 22px;
