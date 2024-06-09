@@ -99,17 +99,50 @@ header.shadow #search-icon{
     border-radius: 0.5rem;
     clip-path: circle(0% at 100% 0%);
 }
-.search-box .active{
-    clip-path: circle(144% at 100% 0%);
-    transition: 0.2s;
+
+.blog .heading {
+    text-align: center;
+    padding: 15px;
 }
-.search-box input{
-    width: 100%;
+
+.blog-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.blog-container .box{
+    flex: 1 1 13rem;
     padding: 20px;
-    border: none;
-    outline: none;
-    background: transparent;
-    font-size: 1rem;
+}
+.blog-container .box:hover{
+    background: #f6f6f6;
+}
+.blog-container .box span{
+    font-size: 0.8rem;
+    color: var(--main-color);
+}
+.blog-container h3{
+    font-size: 1.2rem;
+
+}
+.blog-container .box p{
+    font-size: 0.933rem;
+    margin: 4px 0;
+}
+.blog-container .box .blog-btn{
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    color: var(--text-color);
+}
+.blog-container .box .blog-btn .bx{
+    font-size: 20px;
+}
+.blog-container .box .blog-btn:hover{
+    color: var(--main-color);
+    column-gap: 0.7rem;
+    transition: 0.4s;
 }
 
 
