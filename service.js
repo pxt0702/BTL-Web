@@ -1,9 +1,7 @@
-let menuIcon = document.querySelector('#menu-icon');
+
 let navbar = document.querySelector('.navbar');
 
-menuIcon.onclick = () => {
-    navbar.classList.toggle('active');
-}
+
 let searchIcon = document.querySelector('#search-icon');
 let searchBox = document.querySelector('.search-box');
 searchIcon.onclick = () => {
