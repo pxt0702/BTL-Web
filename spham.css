@@ -59,12 +59,7 @@ header.shadow #search-icon{
     padding: 20px 35px;
 }
 
-#menu-icon{
-    font-size: 24px;
-    cursor: pointer;
-    color: var(--text-color);
-    display: none;
-}
+
 .logo{
     font-size: 1.2rem;
     font-weight: 700;
