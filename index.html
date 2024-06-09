@@ -9,6 +9,7 @@
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
         <script src="https://cdn.jsdelivr.net/npm/swiper@latest/swiper.min.js"></script>
+        
     </head>
 <body>
        
@@ -28,9 +29,40 @@
             </div>
         </div>
     </header>
-    <main>
+   
+    <section class="main-content swiper mySwiper">
+        <div class="main-slider swiper-wrapper">
+            <img class="swiper-slide" src="/img/banner1.jpg" alt="">
+            <img class="swiper-slide" src="/img/banner2.jpg" alt="">
+            <img class="swiper-slide" src="/img/banner3.jpg" alt="">
+        </div>
 
-    </main>
+        <div class="navigation-button">
+            <span class="dot" onclick="changeSlide(0)"></span>
+            <span class="dot" onclick="changeSlide(1)"></span>
+            <span class="dot" onclick="changeSlide(2)"></span>
+        </div>
+    </section>
+    <div class="pos">
+        <h1 style="color:rgb(5, 184, 35); font-family: ;">CHARGING POSITION</h1>
+    </div>
+    <div class="charger">
+        <div class="col1">
+            <div class="overlay-text">
+                <h3 class="overlay-title">Pin $ Trạm Sạc Ô Tô Điện</h3>
+                <p>Với phương châm luôn đặt lợi ích khách hàng lên hàng đầu ,VinFast áp dụng chính sách cho thuê pin độc đáo và khác biệt với tất cả các mô hình trên thế giới từ trước tới nay</p>
+            </div>
+        </div>
+        <div class="col2">
+            <div class="overlay-text">
+                <h3 class="overlay-title">Sạc Xe Điện Di động</h3>
+                <p>Đặt lợi ích và sự tiện khách hàng lên hàng đầu ,VinFast cho ra mắt các loại sạc di động dễ dàng mang theo trong mọi chuyến đi </p>
+            </div>
+        </div>
+    </div>
+    
+    <img src="/img/phuxanh.png" alt="">
+
     <section class="blog" id="blog">
         <div class="heading">
             <span style="color:red">Blog & New</span>
@@ -92,9 +124,8 @@
         </div>
     </section>
        
-    
-        <script src="main.js"></script>
-    </body>
+    <script src="main.js"></script>
+</body>
 </html>
     
     
