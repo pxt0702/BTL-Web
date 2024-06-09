@@ -1,14 +1,14 @@
 .cot{
+    margin: auto;
     box-sizing: border-box;
     display: flex;
-    height: 100%;
+    width: 1500px;
 }
 
 .cot1 {
     position: fixed;
-    width: 15%; 
-    padding: 70px 20px 30px 20px;
-    background-color: rgb(250, 235, 210);
+    width: 225px; 
+    padding: 70px 0 0 0;
     border-radius: 5px; 
     line-height: 4;
     height: 100%;
@@ -76,7 +76,28 @@
     margin: 50px;
 }
 
-
+.danhmuc {
+    border: black 1px solid;
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    background-color: bisque;
+    padding: 0 5px;
+    margin: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(147, 32, 32);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+.danhmuc:hover {
+    background-color: #218838;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
 
 
 .order-notification {
@@ -89,7 +110,7 @@
     top: 50%;
     transform: translate(-50%, -50%);
     width: 60%;
-    background-color: #f8d7da;
+    background-color: bisque;
     color: #721c24;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
