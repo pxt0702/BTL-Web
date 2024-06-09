@@ -30,6 +30,9 @@ img{
     width: 100%;
 }
 
+p{
+    font-family:inherit;
+}
 body{
     color: var(--text-color);
 
@@ -121,23 +124,27 @@ header.shadow #search-icon{
     font-size: 1rem;
 }
 .home{
-    max-width: 100%;
+    max-width: 1500px;
     margin: auto;
     width: 100%;
+    padding: 6rem 0 3rem 0;
     min-height: 1000x;
     display: flex;
     align-items: center;
-    background: url();
+    justify-content: flex-start;
+    background-image:url(/img/bg.png);
     background-repeat: no-repeat;
     background-position :center;
+    background-clip:padding-box;
 
 }
 .home-text{
-    padding-left: 50px;
+    padding-left: 9rem;
 
 }
 .home-text h1{
     font-size: 2.4rem;
+    padding-top: 10px;
 
 }
 .home-text span{
@@ -147,6 +154,10 @@ header.shadow #search-icon{
     font-size: 1.3rem;
     font-weight: 300;
     margin: 0.5rem 0 1.2rem;
+}
+.home-text a{
+    box-shadow: rgb(79, 73, 115) 0px 7px 10px 0px;
+    border-radius: 5px;
 }
 .btn{
     padding: 10px 22px;
@@ -182,6 +193,7 @@ header.shadow #search-icon{
     height: 240px;
     border-radius: 0.5rem;
     overflow: hidden;
+    box-shadow: rgb(79, 73, 115) 0px 10px 15px 0px;
 
 }
 .car-container .box img{
@@ -228,7 +240,10 @@ header.shadow #search-icon{
     flex-wrap: wrap;
     align-items: center;
     gap: 1.5rem;
-    padding-bottom: 4rem;
+    padding:0;
+    margin: 4rem auto;
+    border:3px solid rgb(145, 172, 199);
+    border-radius: 20px;
 
 }
 .about-img{
@@ -250,6 +265,10 @@ header.shadow #search-icon{
     font-size: 0.938rem;
     margin: 0.5rem 0 1.4rem;
 
+}
+.about-text a{
+    box-shadow: rgb(79, 73, 115) 0px 5px 10px 0px;
+    border-radius: 5px;
 }
 
 .footer{
