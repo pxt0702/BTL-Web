@@ -79,6 +79,12 @@ header.shadow #search-icon{
     column-gap: 2rem;
 
 }
+.navbar ul.sub-menu{
+    position: absolute;
+}
+.navbar li{
+    position: relative;
+}
 .navbar a{
     color: var(--text-color);
     font-size: 1rem;
@@ -345,16 +351,35 @@ header.shadow #search-icon{
 
 /* cot2 detail */
 .news-section {
-    margin-top: 80px;
+    margin-top: 70px;
     background-color: #ffffff;
-    padding: 15px;
+    padding: 10px;
     width: 100%;
     box-sizing: border-box;
 }
-.news-section .title {
-    font-size: xx-large;
+.car-price {
+    border: 1px solid #ddd;  
+    border-radius: 10px; 
+    background-color: #f9f9f9; 
+    font-family: Arial, sans-serif; 
+}
+.car-price p{
+    margin-top: 0;
+    font-size: 18px;
     font-weight: bold;
-    margin-bottom: 15px;
+    color: #666;
+    text-align: center;
+    color: #666;
+}
+.car-price h1 {
+    color: #540606;
+    padding: 10px 0;
+    text-align: center;
+}
+.news-section .title {
+    font-size: x-large;
+    font-weight: bold;
+    margin: 15px 0;
     color: #d90429;
 
 }
@@ -380,6 +405,7 @@ header.shadow #search-icon{
 }
 .contact p{
     text-align: center;
+    margin-top: 10px;
 } 
 .header {
     align-items: center;
@@ -398,20 +424,19 @@ header.shadow #search-icon{
 }
 .button {
     padding: 5px 10px;
-    background-color: #007bff;
+    background-color: #053467;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
   }
-/* div cot2 detail */
-
-h2{
-    padding: 20px;
-    margin-top: 10px;
-    text-align: center;
-    font-size: xx-large;
-    color: #d90429;
+.call a{
+    font-size: 22px;
 }
+.icon-custom {
+    font-size: 25px; 
+    color: #0a5db0;  
+}
+/* div cot2 detail */
 
 /* news */
 .container-news{
@@ -434,14 +459,14 @@ h2{
 .container-news .item img {
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: cover;
     overflow: hidden;
 }
 .container-news .item p {
     margin: 10px 0 0;
 }
 .container-news .item a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     position: absolute;
     bottom: 10px;
@@ -450,4 +475,7 @@ h2{
 .item a:hover{
     text-decoration: underline;
     color:lightgray;
+}
+.container-news .item:hover{
+    transform: scale(1.03);
 }
