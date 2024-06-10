@@ -177,7 +177,10 @@ header.shadow #search-icon{
     padding: 20px;
 }
 .blog-container .box:hover{
-    background: #f6f6f6;
+    background: #8d8888;
+    transform: scale(1.03);
+    transition: all 0.4s ease;
+    color: #ffffff;
 }
 .blog-container .box span{
     font-size: 0.8rem;
