@@ -132,7 +132,7 @@ header.shadow #search-icon{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-image:url(../BTL-Web/img/bg.png);
+    background-image:url(img/bg.png);
     background-repeat: no-repeat;
     background-position :center;
     background-clip:padding-box;

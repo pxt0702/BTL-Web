@@ -121,13 +121,13 @@ header.shadow #search-icon{
     margin-left: 10px;
 }
 .col1{
-    background-image: url(../BTL-Web/img/sac.jpg);
+    background-image: url(img/sac.jpg);
     object-fit: cover;
     overflow: hidden;
     position: relative;
 }
 .col2{
-    background-image: url(../BTL-Web/img/charger.jpg);
+    background-image: url(img/charger.jpg);
     object-fit: cover;
     overflow: hidden;
     position: relative;
